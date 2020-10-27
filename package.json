@@ -1,15 +1,27 @@
 {
     "name": "data-storager",
     "version": "1.0.0",
-    "description": "Implementation of an interface for automatically saving and restoring small amounts of melons",
+    "description": "Implementation of an interface for saving and restoring small data",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lastuniverse/data-storager.git"
+    },
     "keywords": [
         "storage",
+        "data",
+        "transport",
+        "json",
+        "javascript",
         "data processing"
     ],
-    "author": "lastuniverse@github.com",
-    "license": "ISC"
+    "author": "Roman Surmanidze aka lastuniverse lastuniverse@github.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lastuniverse/data-storager/issues"
+    },
+    "homepage": "https://github.com/lastuniverse/data-storager#readme",
 }

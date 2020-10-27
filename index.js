@@ -79,19 +79,3 @@ const toExport = {
 };
 
 exports = module.exports = toExport;
-
-
-
-
-storage = create(
-    "test", {},
-    new toExport.transports.File({
-        storragePath: "./store",
-        humanize: true
-    })
-);
-
-console.log(storage.data);
-storage.data.aaa = 12345;
-console.log(storage.data);
-storage.store();

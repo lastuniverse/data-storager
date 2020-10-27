@@ -41,6 +41,11 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Data directories
+data/
+test/
+store/
+
 # TypeScript v1 declaration files
 typings/
 
@@ -99,9 +104,6 @@ dist
 
 # DynamoDB Local files
 .dynamodb/
-
-# other
-store/
 
 # TernJS port file
 .tern-port

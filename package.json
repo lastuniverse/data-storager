@@ -1,0 +1,15 @@
+{
+    "name": "data-storager",
+    "version": "1.0.0",
+    "description": "Implementation of an interface for automatically saving and restoring small amounts of melons",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "storage",
+        "data processing"
+    ],
+    "author": "lastuniverse@github.com",
+    "license": "ISC"
+}

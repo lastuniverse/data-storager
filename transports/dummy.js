@@ -1,6 +1,3 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable no-multi-assign */
-/* eslint-disable no-console */
 /**
  *
  * @module modules/storage/implementation/dummy-storrage

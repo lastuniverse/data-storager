@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const path = require('path');
 const fs = require('fs');
 
@@ -23,7 +22,6 @@ class FileStorage {
     }) {
         this.humanize = (typeof humanize === "boolean") ? humanize : false;
         this.path = (typeof storragePath === "string") ? storragePath : "./";
-        console.log(this.path);
         if (!fs.existsSync(this.path))
             throw new Error(`"${this.path}" folder does not exist`);
     }
